@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/logo-large.png" width="140" alt="What Works Global" />
+  <img src="/assets/logo-large.png" width="140" alt="What Works Global" />
 </p>
 
 <h2 align="center">What Works Global</h2>
@@ -46,5 +46,5 @@ We partner with ambitious teams to design, build, and grow meaningful brands, pr
 📩 **hello@whatworks.com.au**
 
 <p align="center">
-  <img src="./assets/logo-small.png" width="64" alt="What Works Global mark" />
+  <img src="/assets/logo-small.png" width="64" alt="What Works Global mark" />
 </p>
