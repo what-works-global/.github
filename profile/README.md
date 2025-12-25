@@ -40,19 +40,7 @@ We partner with ambitious teams to design, build, and grow meaningful brands, pr
 
 ---
 
-## How We Work
-
-Clear thinking.  
-Focused execution.  
-Measurable outcomes.
-
-No templates. No fluff. Just work that moves the needle.
-
----
-
-## Let’s Talk
-
-If you’re building, scaling, or rethinking what’s next — we should talk.
+## Say hello@whatworks.com.au
 
 🌐 **https://whatworks.com.au**  
 📩 **hello@whatworks.com.au**
