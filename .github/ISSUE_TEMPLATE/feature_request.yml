@@ -1,0 +1,43 @@
+name: Feature request
+description: Suggest a new capability or a change in behaviour
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Start with the problem rather than the solution. It's the part we can most easily help with. If the idea is still rough, a discussion is a fine place to start.
+
+  - type: input
+    id: package
+    attributes:
+      label: Package or project
+      placeholder: "e.g. @whatworks/example"
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: What are you building, and where does the current behaviour get in the way?
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to happen?
+      description: The API, option or behaviour you have in mind. A short code example helps.
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      description: Workarounds you're using today, or other approaches you ruled out.
+
+  - type: checkboxes
+    id: contribute
+    attributes:
+      label: Contributing
+      options:
+        - label: I'd be willing to open a pull request for this.

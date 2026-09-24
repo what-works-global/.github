@@ -1,0 +1,66 @@
+name: Bug report
+description: Something isn't working as documented
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting this. A minimal reproduction is the single most useful thing you can include.
+
+        **Found a security vulnerability?** Don't file it here. Follow the [security policy](https://github.com/what-works-global/.github/blob/main/SECURITY.md) instead.
+
+  - type: input
+    id: package
+    attributes:
+      label: Package or project
+      description: Which package, app or tool is this about? Include the version.
+      placeholder: "e.g. @whatworks/example@1.2.3"
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Versions of the frameworks and runtime involved, plus anything else relevant (database, hosting, OS).
+      placeholder: |
+        Node: 22.x
+        Framework: Payload 3.x / Next.js 15.x
+        Package manager: pnpm 10.x
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead? Include the full error message or stack trace if there is one.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: The smallest config, code snippet, failing test or linked repository that shows the problem.
+      placeholder: |
+        1. Configure ...
+        2. Do ...
+        3. See ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Anything else?
+      description: Workarounds you've found, related issues, or a guess at the cause.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and discussions and didn't find a duplicate.
+          required: true
+        - label: I'd be willing to open a pull request for this.

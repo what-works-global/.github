@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" role="img" aria-labelledby="hero-title hero-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 240" role="img" aria-labelledby="hero-title hero-desc">
   <title id="hero-title">What Works</title>
-  <desc id="hero-desc">We find what works, and deliver on it. Strategy &amp; Creative. Growth &amp; Marketing. Product Development. AI &amp; Technologies.</desc>
+  <desc id="hero-desc">We build software. When something works, we share it. Open source, developer tools and experiments from What Works.</desc>
   <!--
     What Works - GitHub organisation profile hero
     Ground: deep-works ink #020f18 (self-contained; renders identically in GitHub light and dark themes)
@@ -20,11 +20,11 @@
     @media (prefers-reduced-motion: reduce) { .breathe { animation: none; } }
     text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   </style>
-  <rect width="1200" height="320" rx="24" fill="#020f18"/>
-  <g transform="translate(290 82) scale(0.4821)">
+  <rect width="1200" height="240" rx="20" fill="#020f18"/>
+  <g transform="translate(290 58) scale(0.4821)">
     <use href="#wm" filter="url(#fill-paper)"/>
     <g clip-path="url(#block)"><use href="#wm" filter="url(#fill-cyan)" class="breathe"/></g>
   </g>
-  <text x="600" y="206" text-anchor="middle" font-size="22" fill="#c9d3d8">We find <tspan fill="#ffffff" font-weight="500">what works</tspan>, and deliver on it.</text>
-  <text x="600" y="256" text-anchor="middle" font-size="14" letter-spacing="1.8" fill="#78909b">STRATEGY &amp; CREATIVE&#160;&#160;&#183;&#160;&#160;GROWTH &amp; MARKETING&#160;&#160;&#183;&#160;&#160;PRODUCT DEVELOPMENT&#160;&#160;&#183;&#160;&#160;AI &amp; TECHNOLOGIES</text>
+  <text x="600" y="160" text-anchor="middle" font-size="24" fill="#c9d3d8">We build software. When something <tspan fill="#ffffff" font-weight="500">works</tspan>, we share it.</text>
+  <text x="600" y="200" text-anchor="middle" font-size="13" letter-spacing="1.8" fill="#78909b">OPEN SOURCE&#160;&#160;&#183;&#160;&#160;DEVELOPER TOOLS&#160;&#160;&#183;&#160;&#160;EXPERIMENTS</text>
 </svg>
