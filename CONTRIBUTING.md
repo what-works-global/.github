@@ -1,62 +1,37 @@
 # Contributing
 
-Thanks for taking a look. Bug reports, reproductions, docs fixes, ideas and code are all useful. You don't need to write code to help.
-
 This is the default guide for every repository in [what-works-global](https://github.com/what-works-global). If a repository has its own `CONTRIBUTING.md`, follow that one instead.
 
-## Questions and ideas
+The organisation holds two kinds of repository, and the rules differ a little between them:
 
-If you're not sure whether something is a bug, or you want to float an idea before building it, start a thread in the repository's Discussions tab if it has one. [payload-packages](https://github.com/what-works-global/payload-packages/discussions) does.
+- **Public repositories** — open-source packages and tools (for example [payload-packages](https://github.com/what-works-global/payload-packages)). Contributions from anyone are welcome.
+- **Private repositories** — client websites and internal projects. Contributors are What Works staff and contractors working under the engagement.
 
-For questions about a framework we build on (Payload, Next.js and so on), its own docs and community are usually the faster route.
+## For every repository
 
-## Reporting a bug
+- Read the README first. If the repository has an `AGENTS.md` or `CLAUDE.md`, it describes the conventions and applies to humans too.
+- Keep each pull request to one change. No drive-by refactors or reformatting of unrelated code.
+- Run the repository's own checks before pushing — typically a single `check` script covering format, lint, typecheck and tests. CI must pass before merge.
+- Update docs when behaviour changes.
+- Fill in the pull request template: what changed, why, and how it was tested.
+- Never put a credential, a client's data or a security vulnerability in an issue or pull request. Vulnerabilities go through [SECURITY.md](SECURITY.md).
 
-Open an issue using the bug report form. The most useful reports include:
+## Public repositories
 
-- the package or project, and the version you're on
-- the versions of the framework and runtime involved (e.g. Payload, Next.js, Node)
-- the smallest reproduction you can manage: a config snippet, a failing test, or a small repo
-- what you expected and what happened instead, including the full error
+- **Questions and ideas** — use the repository's Discussions tab if it has one. For questions about a framework we build on (Payload, Next.js and so on), its own docs and community are usually faster.
+- **Bugs** — open an issue using the bug report form. The smallest reproduction you can manage is most of the fix.
+- **Larger changes** — open an issue or discussion before building. A short "here's the problem, here's what I'm thinking" gets you a clear yes, no or "yes, but differently" before you put the time in. Typos and obvious bugs can go straight to a pull request.
+- **Making a pull request** — fork, branch from `main`, follow the repository's setup, open the PR. Draft PRs are welcome for early feedback.
+- **Review** — a maintainer will respond within a week or so; a polite nudge is fine after that. We may ask for changes or decline something outside the project's scope, and we'll say why. Commit history needn't be tidy — we squash on merge.
+- **Licensing** — by contributing, you agree your contribution is licensed under the repository's (or package's) licence.
 
-A good reproduction is often most of the fix.
+## Private repositories
 
-**Security vulnerabilities are different.** Don't open a public issue. See [SECURITY.md](SECURITY.md).
-
-## Proposing a change
-
-For typos, docs fixes and obvious bugs, just open a pull request.
-
-For anything larger, such as a new option, a behaviour change or a new package, open an issue or discussion first. A short "here's the problem, here's what I'm thinking" saves you from building something we'd have to push back on. We'll try to give you a clear yes, no or "yes, but differently" before you put the time in.
-
-## Making a pull request
-
-1. Fork the repository and create a branch from `main`.
-2. Follow the setup in the repository's README. Some repositories also include an `AGENTS.md` or `CLAUDE.md` describing conventions, and those apply to humans too.
-3. Keep the change focused. One fix or feature per PR, with no drive-by refactors or reformatting of unrelated code.
-4. Add or update tests where the repository has them, and update docs when behaviour changes.
-5. Run the repository's lint, typecheck, test and format scripts before pushing.
-6. Open the PR and fill in the template: what changed, why, and how you tested it.
-
-If the repository publishes packages with [Changesets](https://github.com/changesets/changesets), add a changeset (`pnpm changeset`) for any change consumers would notice.
-
-Draft PRs are welcome if you want early feedback.
-
-## How review works
-
-- A maintainer will review your PR. We aim to respond within a week or so. If it's gone quiet for longer, a polite nudge on the PR is fine.
-- CI has to pass before merge.
-- We may ask for changes, suggest a different approach, or occasionally decline something that doesn't fit the project's scope. When we decline, we'll explain why.
-- Don't worry about a tidy commit history. We can squash on merge.
-
-## Finding something to work on
-
-We label issues `good first issue` or `help wanted` only when they're genuinely approachable and we know what a good fix looks like. Not every repository will have them at any given time. If you want to help and nothing is labelled, ask in Discussions.
+- Branch from `main` and open a pull request back into it. A second What Works developer reviews every change.
+- Most of these repositories are forked from a shared template. If a change isn't specific to the project — a block fix, a plugin fix, a security fix, a build problem — make it in the template as well, or first, so every other project gets it. A fix that only lands in one fork is lost to the rest.
+- Bugs in the `@whatworks/*` packages belong in [payload-packages](https://github.com/what-works-global/payload-packages). Fix upstream and bump the version; never patch around a package locally.
+- The project's README records its environments, deploy branches and any setup still outstanding. Keep it current.
 
 ## Conduct
 
 Keep technical disagreement about the code, not the person. Everyone here is expected to follow our [Code of Conduct](CODE_OF_CONDUCT.md).
-
-## Licensing
-
-By contributing, you agree that your contribution is licensed under the license of the repository (or package) you're contributing to.

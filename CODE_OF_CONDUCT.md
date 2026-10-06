@@ -1,5 +1,11 @@
 # Contributor Covenant Code of Conduct
 
+## Where this applies
+
+This is the default code of conduct for every repository in [what-works-global](https://github.com/what-works-global). It is written for our public, open-source repositories and the community spaces around them — issues, discussions and pull requests that anyone can take part in.
+
+Our private repositories (client websites and internal projects) are worked on by What Works staff and contractors under their engagement, so the agency's workplace policies apply there. The standards below are the same ones we hold ourselves to in that work.
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our community a harassment-free experience for everyone, regardless of age, body size, visible or invisible disability, ethnicity, sex characteristics, gender identity and expression, level of experience, education, socio-economic status, nationality, personal appearance, race, caste, color, religion, or sexual identity and orientation.

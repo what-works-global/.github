@@ -4,15 +4,15 @@
 
 ## Why?
 
-<!-- The problem it solves. Link the issue or discussion if there is one, e.g. "Closes #123". -->
+<!-- The problem it solves. Link the issue, discussion or ticket if there is one, e.g. "Closes #123". -->
 
 ## How was it tested?
 
-<!-- Tests added or updated, or the manual steps you took. -->
+<!-- Tests added or updated, or the manual steps you took — for a website, where you checked it (local, staging URL, which pages). -->
 
 ## Checklist
 
 - [ ] The change is focused on one thing
-- [ ] Lint, typecheck and tests pass locally
-- [ ] Docs/README updated if behaviour changed
-- [ ] Changeset added, if this repository uses Changesets and consumers would notice the change
+- [ ] The repository's checks (format, lint, typecheck, tests) pass locally
+- [ ] Docs or README updated if behaviour changed
+- [ ] Conventions in the repository's `AGENTS.md` / `CLAUDE.md` followed, if it has one
