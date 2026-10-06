@@ -2,7 +2,7 @@
 
 This is where the engineers at What Works put the code that outlives the project it was written for: open-source packages, developer tools, the occasional experiment, and fixes we send upstream. Most of it grows out of building on Payload, Next.js and TypeScript.
 
-**[Projects](#projects)** · **[Contribute](https://github.com/what-works-global/.github/blob/main/CONTRIBUTING.md)** · **[Discussions](https://github.com/what-works-global/payload-packages/discussions)** · **[npm](https://www.npmjs.com/org/whatworks)**
+**[Projects](#projects)** · **[Contribute](https://github.com/what-works-global/payload-packages/blob/main/CONTRIBUTING.md)** · **[Discussions](https://github.com/what-works-global/payload-packages/discussions)** · **[npm](https://www.npmjs.com/org/whatworks)**
 
 ## Projects
 
@@ -64,7 +64,7 @@ For now, the package READMEs are the most useful reading. [`redirects`](https://
 
 ## Contributing
 
-Bug reports with a good reproduction, docs fixes and small, focused PRs are all useful. Start with the [contributing guide](https://github.com/what-works-global/.github/blob/main/CONTRIBUTING.md). Ask usage questions in [Discussions](https://github.com/what-works-global/payload-packages/discussions), and report security issues privately using our [security policy](https://github.com/what-works-global/.github/blob/main/SECURITY.md).
+Bug reports with a good reproduction, docs fixes and small, focused PRs are all useful. Start with the [contributing guide](https://github.com/what-works-global/payload-packages/blob/main/CONTRIBUTING.md). Ask usage questions in [Discussions](https://github.com/what-works-global/payload-packages/discussions), and report security issues privately using our [security policy](https://github.com/what-works-global/payload-packages/blob/main/SECURITY.md).
 
 When an issue really is approachable, we'll label it `good first issue` or `help wanted`.
 

@@ -1,9 +1,0 @@
-# Forms are offered first; blank issues stay available for private project repositories.
-blank_issues_enabled: true
-contact_links:
-  - name: Report a security vulnerability
-    url: https://github.com/what-works-global/.github/blob/main/SECURITY.md
-    about: Please don't file security issues publicly. Follow the security policy to report privately.
-  - name: Questions and help
-    url: https://github.com/what-works-global/.github/blob/main/SUPPORT.md
-    about: Where to ask usage questions and discuss ideas.
